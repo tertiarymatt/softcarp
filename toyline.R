@@ -11,3 +11,6 @@ plot(x,y)
 abline(a,b, col="red")
 dev.print(png, "toylineplot.png", width=800, height=400)
 dev.print(pdf, "toylinelot.pdf")
+
+fit  <- lm(y~x)
+summary(fit)
