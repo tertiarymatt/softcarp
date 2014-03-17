@@ -14,3 +14,4 @@ dev.print(pdf, "toylinelot.pdf")
 
 fit  <- lm(y~x)
 summary(fit)
+plot(fit)
