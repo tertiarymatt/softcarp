@@ -8,7 +8,7 @@ avgX <- mean(x)
 write(avgX, "Average X.txt")
 
 plot(x,y)
-abline(a,b, col="purple")
+abline(a,b, col="purple") #Go Huskies!
 dev.print(png, "toylineplot.png", width=800, height=400)
 dev.print(pdf, "toylinelot.pdf")
 
