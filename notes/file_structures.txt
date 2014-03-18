@@ -1,0 +1,17 @@
+###Notes on file structures
+
+Outsiders should be able to understand your file organization. 
+Ultimately you're going to have to repeat your work, because of fiddling,
+new data, etc. 
+Metadata for data, scripts, structure itself, is an important thing, for 
+others and your future self. 
+
+Results is not just output; interpretation, notes, expectations are included.
+Ideally these results should be reproducable from a single script; 
+a utopian version is the entire project in a single executable file.
+
+Intermediate files probably shouldn't be "manually" fiddled with, long 
+running results can be stored and re-used, if needed.
+
+
+
