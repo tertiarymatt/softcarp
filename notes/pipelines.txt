@@ -1,0 +1,20 @@
+
+For producing images from command:
+  pdf("filename.ext")
+  plot(1:10)
+  dev.off()
+
+alternately, allowing one to see it:
+  plot(1:10)
+  dev.print(type, "filename.ext")
+
+For ggplot2, ggsave? Might be a little weird. 
+
+Moving from 
+*r console
+*running scripts via "run"
+*running r files via "source" button
+*running r files via "source" command
+*sourcing multiple files from another
+*source the top file from the shell via Rscript and/or knitr
+*execute from a makefile

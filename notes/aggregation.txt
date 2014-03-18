@@ -1,0 +1,14 @@
+###Data Aggregation - Jenny Bryan, UBC
+
+Working with data in R: probably should just use plyr. 
+
+Can use apply and variants and aggregate, but plyr is more flexible. 
+
+plyr theory: "The Split-Apply-Combine Strategy for Data Analysis", Hadley Wickham
+
+In coding, as in life, one should say what they mean and mean what they say.
+
+plyr:
+
+First letter tells us what we put in, second letter tells us what we get out.
+ddply is the main thing, really (see: dplyr).
